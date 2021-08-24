@@ -1,0 +1,229 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "id": "8",
+      "name": "babji",
+      "salary": "065656",
+      "doj": "8/17/2021"
+    },
+    {
+      "id": 7,
+      "name": "madhu",
+      "salary": 676760,
+      "doj": "march 19,2011"
+    },
+    {
+      "id": "9",
+      "name": "malla",
+      "salary": "534534",
+      "doj": "8/17/2021"
+    },
+    {
+      "id": "88",
+      "name": "chinna",
+      "salary": "21842",
+      "doj": "8/17/2021"
+    },
+    {
+      "id": "12",
+      "name": "bhageswari",
+      "salary": "23000",
+      "doj": "8/18/2021"
+    }
+  ],
+  "users": [
+    {
+      "email": "babjipbd@gmail.com",
+      "password": "Babji123",
+      "id": "mZDTO9_"
+    },
+    {
+      "email": "madhu@gmail.com",
+      "password": "Madhu_123",
+      "formErrors": {
+        "email": "",
+        "password": "",
+        "error": ""
+      },
+      "emailValid": true,
+      "passwordValid": true,
+      "formValid": true,
+      "id": "AWszZi0"
+    },
+    {
+      "email": "babji123@gmail.com",
+      "password": "Babji123",
+      "formErrors": {
+        "email": "",
+        "password": "",
+        "error": ""
+      },
+      "emailValid": true,
+      "passwordValid": true,
+      "formValid": true,
+      "id": "Njam1Li"
+    },
+    {
+      "email": "babji@gmail.com",
+      "password": "babhuji",
+      "formErrors": {
+        "email": "",
+        "password": "",
+        "error": ""
+      },
+      "emailValid": true,
+      "passwordValid": true,
+      "formValid": true,
+      "id": "P9AIyPr"
+    },
+    {
+      "email": "cowshik@gmail.com",
+      "password": "cowshik123",
+      "formErrors": {
+        "email": "",
+        "password": "",
+        "error": ""
+      },
+      "emailValid": true,
+      "passwordValid": true,
+      "formValid": true,
+      "id": "GE_3fJq"
+    },
+    {
+      "email": "vtu@gmail.com",
+      "password": "VTU@123",
+      "formErrors": {
+        "email": "",
+        "password": "",
+        "error": ""
+      },
+      "emailValid": true,
+      "passwordValid": true,
+      "formValid": true,
+      "id": "r98obmO"
+    },
+    {
+      "email": "bhageswari@gmail.com",
+      "password": "bhageswari",
+      "formErrors": {
+        "email": "",
+        "password": "",
+        "error": ""
+      },
+      "emailValid": true,
+      "passwordValid": true,
+      "formValid": true,
+      "id": "QL3I910"
+    },
+    {
+      "email": "babji@gmail.com",
+      "password": "rxctfvygbuhin",
+      "formErrors": {
+        "email": "",
+        "password": "",
+        "error": ""
+      },
+      "emailValid": true,
+      "passwordValid": true,
+      "formValid": true,
+      "id": "L99VcpB"
+    },
+    {
+      "email": "teja@gmail.com",
+      "password": "teja123",
+      "formErrors": {
+        "email": "",
+        "password": "",
+        "error": ""
+      },
+      "emailValid": true,
+      "passwordValid": true,
+      "formValid": true,
+      "id": "-XfyBbb"
+    },
+    {
+      "email": "pradeep@gmail.com",
+      "password": "fefeefef",
+      "formErrors": {
+        "email": "",
+        "password": "",
+        "error": ""
+      },
+      "emailValid": true,
+      "passwordValid": true,
+      "formValid": true,
+      "id": "qoT7bKy"
+    }
+  ],
+  "cart": [
+    {
+      "image": "",
+      "price": "",
+      "category": "",
+      "title": "",
+      "id": "elsJW6T"
+    },
+    {
+      "title": "Products List",
+      "id": "Bir0DkT"
+    },
+    {
+      "id": "Ic45SZp",
+      "title": "",
+      "image": "",
+      "price": ""
+    },
+    {
+      "id": "jrY5R7U"
+    },
+    {
+      "id": "1BeWcSd"
+    },
+    {
+      "id": "nRC6gGV"
+    },
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 109.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "ze35idf"
+    },
+    {
+      "id": "W6JpJ__"
+    },
+    {
+      "id": "Fw2Qk7E"
+    },
+    {
+      "id": "lBjD5s4"
+    },
+    {
+      "id": "dF-IuIn"
+    },
+    {
+      "id": "PF-kgoZ"
+    }
+  ]
+}
