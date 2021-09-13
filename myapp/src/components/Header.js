@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 
 import { Link } from 'react-router-dom'
@@ -14,36 +15,24 @@ export default class Header extends Component {
                 
               </div>
               <ul class="nav navbar-nav">
-              <li class="active"><Link to={'/home'}>Home</Link></li>
               <li ><Link to={'/counter'}>Counter</Link></li>
-              <li ><Link to={'/clock'}>Clock</Link></li>
-              <li ><Link to={'/catlog'}>Catlog</Link></li>
-              <li ><Link to={'/greeting'}>Greeting</Link></li>
-              <li ><Link to={'/employee'}>Employee</Link></li>
-              <li ><Link to={'/student'}>Student</Link></li>
-              <li ><Link to={'/form'}>React Forms</Link></li>
-              <li ><Link to={'/state-lift'}>State Lift</Link></li>
-              <li ><Link to={'/employees'}>React Ajax</Link></li>
-              <li ><Link to={'/hoc'}>HOC</Link></li>
-              <li ><Link to={'/casestudy'}>CaseStudy</Link></li>
-              <li ><Link to={'/hooks'}>Hooks</Link></li>
-              <li ><Link to={'/word'}>Word</Link></li>
-              <li ><Link to={'/lazy'}>My Component</Link></li>
-              <li ><Link to={'/list-employee'}>Redux-App</Link></li>
-              <li ><Link to={'/add-employee'}>Add Employee</Link></li>
               
-                                                     
+              <li ><Link to={'/emplist'}>Employee</Link></li>
+              
+              <li ><Link to={'/newemployee'}> New Employee</Link></li>                                     
 
-             
+              <li ><Link to={'/addproduct'}>Add Product</Link></li>
+              
+              <li ><Link to={'/listproduct'}> list Product</Link></li> 
 
-
+              <li ><Link to={'/todolist'}> todo-list</Link></li> 
                
+              <li ><Link to={'/addtodo'}> tl</Link></li> 
+
+              <li ><Link to={'/unseen'}> unseen</Link></li> 
               </ul>
 
-              <ul class="nav navbar-nav navbar-right">
-           <li><Link to={'/register'}><span class="glyphicon glyphicon-user"></span> Sign Up</Link></li>
-           <li><Link to={'/login'}><span class="glyphicon glyphicon-log-in"></span> Login</Link></li>
-          </ul>
+             
             </div>
           </nav>
               
