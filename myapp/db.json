@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": {
+    "id": 0,
+    "name": "",
+    "salary": 0,
+    "doj": "9/14/2021"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "bab",
+      "price": "323434",
+      "location": "wefdwefd"
+    },
+    {
+      "id": 1,
+      "name": "julii",
+      "price": "4323432",
+      "location": "gbfvdfbg"
+    },
+    {
+      "id": 2,
+      "name": "madhav",
+      "price": "432321",
+      "location": "tgdfdcf"
+    },
+    {
+      "id": 3,
+      "name": "chinnu",
+      "price": "32312",
+      "location": "rjy"
+    }
+  ]
+}

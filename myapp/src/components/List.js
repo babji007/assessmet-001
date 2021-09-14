@@ -71,11 +71,13 @@ class List extends Component {
     const requiredItem = this.state.requiredItem;
     let modalData = this.state.brochure[requiredItem];
     return (
-      <div>
+      
+        <div>
         <div style={{ textAlign: "center" }}>
-          <h1>Editable Bootstrap Modal In React</h1>
-          <h6>Bootstrap 4.0.0-beta.3</h6>
+          <h1>Todo List with Modal Popup In React</h1>
+          {/* <h6>Bootstrap 4.0.0-beta.3</h6> */}
         </div>
+        <div>
         <form className="mb-3" onSubmit={event => this.handleSubmit(event)}>
     <div >
     <label>Enter the todo:</label><br/>
@@ -84,7 +86,9 @@ class List extends Component {
     <button type="submit" className="btn btn-primary my-2 my-sm-0"> Add </button>
     
     </div>
+    
 </form>
+</div>
         <table className="table table-striped">
           <tbody>
             {brochure}

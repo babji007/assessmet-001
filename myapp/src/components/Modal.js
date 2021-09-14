@@ -17,9 +17,6 @@ class Modal extends Component {
         });
     }
 
-    // titleHandler(e) {
-    //     this.setState({ title: e.target.value });
-    // }
 
     msgHandler(e) {
         this.setState({ msg: e.target.value });
@@ -31,12 +28,12 @@ class Modal extends Component {
     }
 
     render() {
-        return (
+        return (<div>
             <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Edit Jewel</h5>
+                            <h5 className="modal-title" id="exampleModalLabel">Edit todo</h5>
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -51,6 +48,7 @@ class Modal extends Component {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         );
     }
