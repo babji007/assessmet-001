@@ -15,11 +15,11 @@ export default class Header extends Component {
                 
               </div>
               <ul class="nav navbar-nav">
-              {/* <li ><Link to={'/counter'}>Counter</Link></li> */}
+              <li ><Link to={'/counter'}>Counter</Link></li>
               
               <li ><Link to={'/emplist'}>Employee</Link></li>
               
-              {/* <li ><Link to={'/addproduct'}>Add Product</Link></li> */}
+              <li ><Link to={'/addproduct'}>Add Product</Link></li>
               {/* <li ><Link to={'/newemployee'}> New Employee</Link></li>                                     
 
               
