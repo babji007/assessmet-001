@@ -1,5 +1,5 @@
 
-import './App.css';
+// import './App.css';
 import List from './components/List';
 import { BrowserRouter as Router, HashRouter,Switch, Route, Link } from 'react-router-dom';
 import Header from './components/Header';
