@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react": "^15.7.0",
+    "react-thunk": "^1.0.0"
+  }
+}
